@@ -1,6 +1,6 @@
 Тестовое задание:
 
-1. Запустить тесты [ShipTest.java](src/test/java/io/tarantool/springdata/example/repository/ShipTest.java)
+1. Запустить тест класс [ShipTest](src/test/java/io/tarantool/springdata/example/repository/ShipTest.java)
 2. Реализовать тест `testSaveAndFind`.  
    Тест должен записывать `tuple` в tarantool(проверяя успешно ли прошла запись) и далее делать запрос select запрос в tarantool для проверки, что мы можем получить запись, которую записали insert'ом.
 3. Написать дополнительные тесты покрывающие работу Java и Tarantool.
